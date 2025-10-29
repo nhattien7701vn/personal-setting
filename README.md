@@ -29,7 +29,7 @@ just a few personal settings for vs code
   "vscode_custom_css.imports": [
     "file:///home/<username>/Desktop/custom/custom-colors-vscode.css"
   ]
+  // Replace <username> with your actual system username
   ````
-  Replace <username> with your actual system username
 6. Save your settings and run "Reload Custom CSS and JS" from the Command Palette (Ctrl+Shift+P on Windows/Linux, Cmd+Shift+P on macOS).
 
