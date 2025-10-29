@@ -6,7 +6,7 @@ just a few personal settings for vs code
 ## 🌌 Preview
 
 ### Dracula Theme and Custom Slider
-![Theme 1](./assets/theme-1.gif)
+![Theme 1](./assets/gif/theme-1.gif)
 
 ## ⚙️ Installation
 1. Download file custom-colors-vscode.css
