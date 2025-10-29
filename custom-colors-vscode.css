@@ -1,0 +1,109 @@
+:root {
+  --gradient-dir1: to top right;
+  --gradient-dir2: to bottom left;
+  --gradient-dir3: to right top;
+  --gradient-dir4: to left bottom;
+  --gradient-dir5: to top left;
+  --size: 5px;
+}
+
+/* .mtk10,
+.mtk15 {
+  color: transparent;
+  background-image: linear-gradient(var(--gradient-dir4), #ff0000, #ff1bd1);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.mtk5 {
+  font-style: italic;
+}
+
+.mtk5,
+.mtk26 {
+  color: transparent;
+  background-image: linear-gradient(var(--gradient-dir1), #4dd78a, #4caf50);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-font-smoothing: auto;
+}
+
+.mtk26 {
+  background-image: linear-gradient(var(--gradient-dir5), #4dd78a, #20e3b2, #a2de6a);
+  font-style: italic;
+}
+
+.mtk23,
+.mtk16 {
+  color: transparent;
+  background-image: linear-gradient(var(--gradient-dir1), #d66efd, #6a5af9);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.mtk9,
+.mtk17 {
+  color: transparent;
+  background-image: linear-gradient(var(--gradient-dir2), #098dff, #2cccff, #2979ff);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.mtk18 {
+  color: transparent;
+  background-image: linear-gradient(var(--gradient-dir2), #b0beff, #fed9ff);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-style: normal;
+}
+
+.mtk3 {
+  color: transparent;
+  background-image: linear-gradient(var(--gradient-dir1), #bd93f9, #ffadd6, #bd93f9);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.mtk7 {
+  color: transparent;
+  background-image: linear-gradient(var(--gradient-dir2), #fc6c8f, #ffb86c);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.mtk8,
+.mtk14 {
+  color: transparent;
+  background-image: linear-gradient(to right, #ffb88c, #eac394);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+} */
+
+.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.active.tab-border-top:not(:focus)>.tab-border-top-container, .monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.selected.tab-border-top:not(:focus)>.tab-border-top-container{
+  height: 3px;
+  background-image: linear-gradient(45deg, #5800E2, #FF00E6, #5800E2);
+  background-size: 200% 200%;
+  animation: moveGradient 3s linear alternate infinite;
+  border-radius: 0.5px;
+}
+
+.slider {
+  border-radius: 5px;
+}
+
+@keyframes moveGradient {
+  0% {
+    background-position: 0% 60%;
+  }
+  100% {
+    background-position: 100% 60%;
+  }
+}

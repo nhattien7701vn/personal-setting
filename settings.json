@@ -1,0 +1,140 @@
+{
+	"tabnine.experimentalAutoImports": true,
+	"material-icon-theme.folders.theme": "specific",
+	"pretty-formatter.braceLine": true,
+	"pretty-formatter.bracePadding": true,
+	"pretty-formatter.braces": true,
+	"pretty-formatter.braceStyle": "collapse",
+	"pretty-formatter.commentLine": true,
+	"pretty-formatter.comments": true,
+	"pretty-formatter.correct": true,
+	"pretty-formatter.compressedCss": true,
+	"pretty-formatter.cssInsertLines": true,
+	"pretty-formatter.elseLine": true,
+	"pretty-formatter.endComma": "always",
+	"pretty-formatter.forceAttribute": true,
+	"pretty-formatter.forceIndent": true,
+	"pretty-formatter.functionName": true,
+	"prettier.bracketSameLine": true,
+	"prettier.enableDebugLogs": true,
+	"prettier.singleQuote": true,
+	"prettier.resolveGlobalModules": true,
+	"pretty-formatter.formatArray": "indent",
+	"pretty-formatter.formatObject": "indent",
+	"pretty-formatter.indentLevel": 1,
+	"pretty-formatter.indentSize": 1,
+	"pretty-formatter.methodChain": 1,
+	"pretty-formatter.spaceClose": true,
+	"prettier.insertPragma": true,
+	"editor.formatOnSave": true,
+	"editor.formatOnType": true,
+	"typescript.format.insertSpaceAfterTypeAssertion": true,
+	"[typescript]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"security.workspace.trust.untrustedFiles": "open",
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"explorer.confirmDelete": false,
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"go.toolsManagement.autoUpdate": true,
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"prettier.printWidth": 2000,
+	"prettier.trailingComma": "all",
+	"prettier.useTabs": true,
+	"editor.tabSize": 2,
+	"[javascriptreact]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+		"files.autoSave": "afterDelay",
+	"workbench.iconTheme": "material-icon-theme",
+	"editor.cursorBlinking": "phase",
+	"editor.cursorSmoothCaretAnimation": "on",
+	"cSpell.userWords": [
+		"flashsale",
+		"isbgimage"
+	],
+	"editor.fontFamily": "Cascadia Mono, Menlo, Monaco, 'Courier New', monospace",
+	"workbench.colorTheme": "Evondev Dracula High Contrast",
+	"accessibility.signals.lineHasError": {
+		"sound": "off"
+	},
+	"accessibility.signals.lineHasFoldedArea": {
+		"sound": "off"
+	},
+	"accessibility.signals.lineHasBreakpoint": {
+		"sound": "off"
+	},
+	"accessibility.signals.lineHasInlineSuggestion": {
+		"sound": "off"
+	},
+	"accessibility.signals.terminalQuickFix": {
+		"sound": "off"
+	},
+	"accessibility.signals.onDebugBreak": {
+		"sound": "off"
+	},
+	"accessibility.signals.noInlayHints": {
+		"sound": "off"
+	},
+	"accessibility.signals.taskCompleted": {
+		"sound": "off"
+	},
+	"accessibility.signals.taskFailed": {
+		"sound": "off"
+	},
+	"accessibility.signals.terminalCommandFailed": {
+		"sound": "off"
+	},
+	"accessibility.signals.notebookCellCompleted": {
+		"sound": "off"
+	},
+	"accessibility.signals.notebookCellFailed": {
+		"sound": "off"
+	},
+	"accessibility.signals.diffLineInserted": {
+		"sound": "off"
+	},
+	"accessibility.signals.diffLineDeleted": {
+		"sound": "off"
+	},
+	"accessibility.signals.diffLineModified": {
+		"sound": "off"
+	},
+	"editor.accessibilitySupport": "off",
+	"diffEditor.ignoreTrimWhitespace": false,
+	"settingsSync.ignoredExtensions": [
+	
+	
+	
+	],
+	"settingsSync.ignoredSettings": [
+	
+		
+	
+	],
+	"vscode_custom_css.imports": ["file:///Users/giakho/Desktop/custom/custom-colors-vscode.css "],
+	"eslint.options": {
+		"overrideConfig": {
+			"rules": {
+				"react-hooks/exhaustive-deps": "off",
+				"no-unused-vars": "off"				
+			}
+		}
+	},
+	"workbench.editorAssociations": { "*.svg": "default" },
+	"svg.preview.mode": "svg",
+	"[css]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	}
+}
