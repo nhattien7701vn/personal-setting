@@ -5,11 +5,11 @@ just a few personal settings for vs code
 
 ## 🌌 Preview
 
-### Dracula Theme and Custom Slider
+### Theme 1: Dracula Theme and Custom Slider
 ![Theme 1](./assets/gif/theme-1.gif)
 
 ## ⚙️ Installation
-1. Download file custom-colors-vscode.css
+1. Download file custom-css-theme.css
 2. Open **VS Code**  
 3. Go to **Extensions Marketplace**  
 4. Search and Install Custom CSS and JS Loader
@@ -17,17 +17,17 @@ just a few personal settings for vs code
   ```jsonc
   // Windows
   "vscode_custom_css.imports": [
-    "file:///C:/Users/<username>/Desktop/custom/custom-colors-vscode.css"
+    "file:///C:/Users/<username>/Desktop/custom/<custom-css-theme-name.css>"
   ]
 
   // macOS
   "vscode_custom_css.imports": [
-    "file:///Users/<username>/Desktop/custom/custom-colors-vscode.css"
+    "file:///Users/<username>/Desktop/custom/<custom-css-theme-name.css>"
   ]
 
   // Ubuntu / Linux
   "vscode_custom_css.imports": [
-    "file:///home/<username>/Desktop/custom/custom-colors-vscode.css"
+    "file:///home/<username>/Desktop/custom/<custom-css-theme-name.css>"
   ]
   // Replace <username> with your actual system username
   ````
